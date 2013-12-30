@@ -5,10 +5,15 @@
   "companyName": "Steve Appling",
   "versionCode": 1,
   "versionLabel": "1.0.0",
+  "capabilities": [ "configurable" ],
   "watchapp": {
     "watchface": true
   },
-  "appKeys": {},
+  "appKeys": {
+    "background": 0,
+    "showday": 1,
+    "reqvalues": 3
+},
   "resources": {
     "media": [
       {
@@ -19,53 +24,103 @@
       },
       {
         "type": "png",
-        "name": "IMAGE_NUM_0",
-        "file": "images/num_0.png"
+        "name": "IMAGE_NUM_0_72",
+        "file": "images/num_0_72.png"
       },
       {
         "type": "png",
-        "name": "IMAGE_NUM_1",
-        "file": "images/num_1.png"
+        "name": "IMAGE_NUM_1_72",
+        "file": "images/num_1_72.png"
       },
       {
         "type": "png",
-        "name": "IMAGE_NUM_2",
-        "file": "images/num_2.png"
+        "name": "IMAGE_NUM_2_72",
+        "file": "images/num_2_72.png"
       },
       {
         "type": "png",
-        "name": "IMAGE_NUM_3",
-        "file": "images/num_3.png"
+        "name": "IMAGE_NUM_3_72",
+        "file": "images/num_3_72.png"
       },
       {
         "type": "png",
-        "name": "IMAGE_NUM_4",
-        "file": "images/num_4.png"
+        "name": "IMAGE_NUM_4_72",
+        "file": "images/num_4_72.png"
       },
       {
         "type": "png",
-        "name": "IMAGE_NUM_5",
-        "file": "images/num_5.png"
+        "name": "IMAGE_NUM_5_72",
+        "file": "images/num_5_72.png"
       },
       {
         "type": "png",
-        "name": "IMAGE_NUM_6",
-        "file": "images/num_6.png"
+        "name": "IMAGE_NUM_6_72",
+        "file": "images/num_6_72.png"
       },
       {
         "type": "png",
-        "name": "IMAGE_NUM_7",
-        "file": "images/num_7.png"
+        "name": "IMAGE_NUM_7_72",
+        "file": "images/num_7_72.png"
       },
       {
         "type": "png",
-        "name": "IMAGE_NUM_8",
-        "file": "images/num_8.png"
+        "name": "IMAGE_NUM_8_72",
+        "file": "images/num_8_72.png"
       },
       {
         "type": "png",
-        "name": "IMAGE_NUM_9",
-        "file": "images/num_9.png"
+        "name": "IMAGE_NUM_9_72",
+        "file": "images/num_9_72.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_NUM_0_84",
+        "file": "images/num_0_84.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_NUM_1_84",
+        "file": "images/num_1_84.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_NUM_2_84",
+        "file": "images/num_2_84.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_NUM_3_84",
+        "file": "images/num_3_84.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_NUM_4_84",
+        "file": "images/num_4_84.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_NUM_5_84",
+        "file": "images/num_5_84.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_NUM_6_84",
+        "file": "images/num_6_84.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_NUM_7_84",
+        "file": "images/num_7_84.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_NUM_8_84",
+        "file": "images/num_8_84.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_NUM_9_84",
+        "file": "images/num_9_84.png"
       },
       {
         "type": "font",

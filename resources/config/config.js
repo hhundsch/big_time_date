@@ -1,2 +1,0 @@
-
-alert("hey, it worked");
