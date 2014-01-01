@@ -259,12 +259,12 @@ static void sendDefaultsToJS() {
   Tuplet bgValue = TupletInteger(MSG_KEY_BACKGROUND, backgroundBlack);
   dict_write_tuplet(iter, &bgValue);
 
-  Tuplet sdValue = TupletInteger(MSG_KEY_SHOW_DAY, 0);
+  Tuplet sdValue = TupletInteger(MSG_KEY_SHOW_DAY, showDay);
   dict_write_tuplet(iter, &sdValue); 
 
   dict_write_end(iter);
                       
-  APP_LOG(APP_LOG_LEVEL_DEBUG, "About to send app message");
+  APP_LOG(APP_LOG_LEVEL_DEBUG, "About to send app message w/ background=%d, showDay=%d", backgroundBlack, showDay);
   app_message_outbox_send();
 }
 

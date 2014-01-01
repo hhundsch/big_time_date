@@ -19,7 +19,8 @@ function showConfigPage() {
     configReq = false;
     // time param is just to avoid caching issues
     var uri = "http://appling.org/pebble/bigtimedate/configure.html?time"+new Date().getTime()
-    			+"background="+background+"&dom="+showday;
+    			+"&background="+background+"&dom="+showday;
+    if (log) console.log("config="+uri);
     Pebble.openURL(uri);
 }
         
